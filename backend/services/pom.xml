@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <artifactId>wfly-ws-template-backend-services</artifactId>
+    <dependencies>
+	<dependency>
+	    <artifactId>jboss-logging</artifactId>
+	    <groupId>org.jboss.logging</groupId>
+	    <scope>provided</scope>
+	    <version>3.4.1.Final</version>
+	</dependency>
+    </dependencies>
+    <groupId>io.github.agbaroni.tests</groupId>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+	<artifactId>wfly-ws-template-backend</artifactId>
+	<groupId>io.github.agbaroni.tests</groupId>
+	<version>0.1.0-SNAPSHOT</version>
+    </parent>
+    <packaging>war</packaging>
+</project>
